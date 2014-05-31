@@ -1,0 +1,11 @@
+{
+    "name"         : "dailyCal",
+    "version"      : "0.0.0",
+    "description"  : "Daily todo application.",
+    "main"         : "server.js",
+    "author"       : "Abhishek Dewadiga",
+    "dependencies" : {
+        "express"    : "~3.4.4",
+        "mongoose"   : "~3.6.2"
+    }
+  }
