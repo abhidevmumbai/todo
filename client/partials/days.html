@@ -1,0 +1,10 @@
+<div class="row">
+	<div class="col-md-2" ng-repeat='day in days'>
+		<h3>DAYS</h3>
+		<div class="days">
+			<div>{{ day.date }}</div>
+			<div class="task" ng-repeat='task in day.tasks'>
+				{{ task.task }} - {{ task.done }}
+			</div>
+		</div>
+</div>

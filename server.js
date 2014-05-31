@@ -6,7 +6,7 @@ var express    = require('express'),
 
 
 // Connect with the mongodb database
-// mongoose.connect('');
+mongoose.connect('mongodb://localhost/dailyToDo');
 
 app.configure(function() {
     app.use(express.static(__dirname + client_dir)); // set the static files location
